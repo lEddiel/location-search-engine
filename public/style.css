@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.cover {
+    /* The image used */
+    background-image: url("https://blog.mozilla.org/wp-content/uploads/2020/04/blog-post-search-bar-14.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: #474545;
+    background-blend-mode: overlay;
+
+    opacity: 0.85;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

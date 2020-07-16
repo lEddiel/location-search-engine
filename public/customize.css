@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.half-cover1 {
+  /* The image used */
+    background-image: url("https://lh3.googleusercontent.com/wnbhKmWZ4BEP31NrXBMSRIf0sinapcp4tuBM6JJNYA2DuXJHPTT2G5nw7GXaFGTemasIjb3T-CpswlgyDCVuF8AMnOHNWE_P666yn1c=w0");
+
+    /* Full height */
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: #474545;
+    background-blend-mode: overlay;
+    opacity: 0.85;
+}
+
+.half-cover2 {
+  /* The image used */
+    background-image: url("https://searchengineland.com/figz/wp-content/seloads/2017/12/compare-seo-ss-1920-800x450.jpg");
+
+    /* Full height */
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: #474545;
+    background-blend-mode: overlay;
+    opacity: 0.85;
+
+}
+
+.half-cover3 {
+  /* The image used */
+    background-image: url("https://www.psalm11918.org/images/shared/dreamstime_s_2717323.jpg");
+
+    /* Full height */
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: #474545;
+    background-blend-mode: overlay;
+    opacity: 0.85;
+
+}
+
+.centered {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
